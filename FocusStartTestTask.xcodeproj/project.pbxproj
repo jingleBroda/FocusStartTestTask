@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50370D152603AA5E007D573C /* NavigationEdiitNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50370D142603AA5E007D573C /* NavigationEdiitNoteController.swift */; };
+		50370D172603E7CC007D573C /* NavigationMainTabelVewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50370D162603E7CC007D573C /* NavigationMainTabelVewController.swift */; };
 		50F6C6F32600C104005A5374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6C6F22600C104005A5374 /* AppDelegate.swift */; };
-		50F6C6F52600C104005A5374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6C6F42600C104005A5374 /* ViewController.swift */; };
 		50F6C6F82600C104005A5374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F6C6F62600C104005A5374 /* Main.storyboard */; };
 		50F6C6FA2600C105005A5374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F6C6F92600C105005A5374 /* Assets.xcassets */; };
 		50F6C6FD2600C105005A5374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F6C6FB2600C105005A5374 /* LaunchScreen.storyboard */; };
 		50F6C7082600C106005A5374 /* FocusStartTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6C7072600C106005A5374 /* FocusStartTestTaskTests.swift */; };
 		50F6C7132600C106005A5374 /* FocusStartTestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6C7122600C106005A5374 /* FocusStartTestTaskUITests.swift */; };
+		50F6C7222600C15C005A5374 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6C7212600C15C005A5374 /* MainModel.swift */; };
+		50F6C7262600C5D7005A5374 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6C7252600C5D7005A5374 /* MainTableViewController.swift */; };
+		50F6C7282600C8B8005A5374 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6C7272600C8B8005A5374 /* MyTableViewCell.swift */; };
+		50F6C72C2601099D005A5374 /* EditNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6C72B2601099D005A5374 /* EditNoteVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50370D142603AA5E007D573C /* NavigationEdiitNoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationEdiitNoteController.swift; sourceTree = "<group>"; };
+		50370D162603E7CC007D573C /* NavigationMainTabelVewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMainTabelVewController.swift; sourceTree = "<group>"; };
 		50F6C6EF2600C104005A5374 /* FocusStartTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusStartTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F6C6F22600C104005A5374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50F6C6F42600C104005A5374 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50F6C6F72600C104005A5374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50F6C6F92600C105005A5374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50F6C6FC2600C105005A5374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		50F6C70E2600C106005A5374 /* FocusStartTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusStartTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F6C7122600C106005A5374 /* FocusStartTestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStartTestTaskUITests.swift; sourceTree = "<group>"; };
 		50F6C7142600C106005A5374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F6C7212600C15C005A5374 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		50F6C7252600C5D7005A5374 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		50F6C7272600C8B8005A5374 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		50F6C72B2601099D005A5374 /* EditNoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				50F6C6F12600C104005A5374 /* FocusStartTestTask */,
+				50F6C7202600C14B005A5374 /* Model */,
 				50F6C7062600C106005A5374 /* FocusStartTestTaskTests */,
 				50F6C7112600C106005A5374 /* FocusStartTestTaskUITests */,
 				50F6C6F02600C104005A5374 /* Products */,
@@ -98,7 +109,11 @@
 			isa = PBXGroup;
 			children = (
 				50F6C6F22600C104005A5374 /* AppDelegate.swift */,
-				50F6C6F42600C104005A5374 /* ViewController.swift */,
+				50F6C7252600C5D7005A5374 /* MainTableViewController.swift */,
+				50F6C7272600C8B8005A5374 /* MyTableViewCell.swift */,
+				50F6C72B2601099D005A5374 /* EditNoteVC.swift */,
+				50370D142603AA5E007D573C /* NavigationEdiitNoteController.swift */,
+				50370D162603E7CC007D573C /* NavigationMainTabelVewController.swift */,
 				50F6C6F62600C104005A5374 /* Main.storyboard */,
 				50F6C6F92600C105005A5374 /* Assets.xcassets */,
 				50F6C6FB2600C105005A5374 /* LaunchScreen.storyboard */,
@@ -123,6 +138,14 @@
 				50F6C7142600C106005A5374 /* Info.plist */,
 			);
 			path = FocusStartTestTaskUITests;
+			sourceTree = "<group>";
+		};
+		50F6C7202600C14B005A5374 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50F6C7212600C15C005A5374 /* MainModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F6C6F52600C104005A5374 /* ViewController.swift in Sources */,
+				50F6C7262600C5D7005A5374 /* MainTableViewController.swift in Sources */,
+				50370D152603AA5E007D573C /* NavigationEdiitNoteController.swift in Sources */,
 				50F6C6F32600C104005A5374 /* AppDelegate.swift in Sources */,
+				50370D172603E7CC007D573C /* NavigationMainTabelVewController.swift in Sources */,
+				50F6C7282600C8B8005A5374 /* MyTableViewCell.swift in Sources */,
+				50F6C72C2601099D005A5374 /* EditNoteVC.swift in Sources */,
+				50F6C7222600C15C005A5374 /* MainModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
